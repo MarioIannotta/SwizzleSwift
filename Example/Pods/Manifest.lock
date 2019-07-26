@@ -1,0 +1,16 @@
+PODS:
+  - SwizzleSwift (0.1)
+
+DEPENDENCIES:
+  - SwizzleSwift (from `../`)
+
+EXTERNAL SOURCES:
+  SwizzleSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwizzleSwift: 0116fc905d0e8ac056510d70b9cac2165c3bf27d
+
+PODFILE CHECKSUM: b38d3a0b960d56036831fe5a46454076df25b2a8
+
+COCOAPODS: 1.7.0.beta.3
