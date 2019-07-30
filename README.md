@@ -1,7 +1,7 @@
 # SwizzleSwift
 Who said that method swizzling needs to look ugly? SwizzleSwift is a little wrapper that lets you swizzle selectors just one clean and elegant API. 
 
-![SwizzleSwift: Swizzle selectors with just one clean and elegant API](https://raw.githubusercontent.com/MarioIannotta/SwizzleSwift/develop/SwizzleSwift.png)
+![SwizzleSwift: Swizzle selectors with just one clean and elegant API](https://raw.githubusercontent.com/MarioIannotta/SwizzleSwift/master/SwizzleSwift.png)
 
 [![Version](https://img.shields.io/cocoapods/v/SwizzleSwift.svg?style=flat)](https://cocoapods.org/pods/SwizzleSwift)
 [![License](https://img.shields.io/cocoapods/l/SwizzleSwift.svg?style=flat)](https://cocoapods.org/pods/SwizzleSwift)
