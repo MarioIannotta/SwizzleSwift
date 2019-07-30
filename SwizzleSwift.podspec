@@ -12,5 +12,5 @@ Change the implementation of selectors at runtime easily.
   s.source           = { :git => 'https://github.com/MarioIannotta/SwizzleSwift.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/MarioIannotta'
   s.ios.deployment_target = '9.0'
-  s.source_files = 'SwizzleSwift/Sources/**/*'
+  s.source_files = 'Sources/**/*'
 end

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,7 +12,6 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		AC8174B722F0786000CB68F3 /* SwizzleSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AC8174B622F0786000CB68F3 /* SwizzleSwift */; };
 		FA539E50F81B401E5459C48D /* Pods_SwizzleSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FA4CDF3E199276E6BAE549 /* Pods_SwizzleSwiftDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +29,6 @@
 		6A263531BB1D89661ED4BCBA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9196EA71E572F057B3DB7074 /* Pods-SwizzleSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwizzleSwift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwizzleSwift_Tests/Pods-SwizzleSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9DD6C984C48A372527D345D1 /* Pods-SwizzleSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwizzleSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwizzleSwiftDemo/Pods-SwizzleSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		AC4F96D522F0704C003114E9 /* SwizzleSwift */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwizzleSwift; path = ../SwizzleSwift; sourceTree = "<group>"; };
 		D358D1D89205A12175D1C63C /* Pods-SwizzleSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwizzleSwiftDemo.release.xcconfig"; path = "Target Support Files/Pods-SwizzleSwiftDemo/Pods-SwizzleSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E3F5D6C63008A25D2A6ADD56 /* Pods_SwizzleSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwizzleSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF607C0196C5676DAFFE4E6D /* SwizzleSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwizzleSwift.podspec; path = ../SwizzleSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -43,7 +41,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA539E50F81B401E5459C48D /* Pods_SwizzleSwiftDemo.framework in Frameworks */,
-				AC8174B722F0786000CB68F3 /* SwizzleSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +63,6 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				AC4F96D522F0704C003114E9 /* SwizzleSwift */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for SwizzleSwift */,
 				607FACD11AFB9204008FA782 /* Products */,
@@ -142,7 +138,6 @@
 			);
 			name = SwizzleSwiftDemo;
 			packageProductDependencies = (
-				AC8174B622F0786000CB68F3 /* SwizzleSwift */,
 			);
 			productName = SwizzleSwift;
 			productReference = 607FACD01AFB9204008FA782 /* SwizzleSwiftDemo.app */;
@@ -428,13 +423,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		AC8174B622F0786000CB68F3 /* SwizzleSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = SwizzleSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }
