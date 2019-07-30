@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'SwizzleSwift'
-  s.version          = '0.1'
-  s.summary          = 'Swift swizzle made simple.'
+  s.version          = '0.2'
+  s.summary          = 'Swizzle selectors with just one clean and elegant API.'
   s.description      = <<-DESC
-Change the implementation of selectors at runtime easily.
+Who said that method swizzling needs to look ugly? SwizzleSwift is a little wrapper that lets you swizzle selectors just one clean and elegant API.
                        DESC
   s.swift_version = '5'
   s.homepage         = 'https://github.com/MarioIannotta/SwizzleSwift'
