@@ -20,5 +20,6 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "SwizzleSwift/**/*"
+  "source_files": "SwizzleSwift/Sources/**/*",
+  "swift_version": "5"
 }

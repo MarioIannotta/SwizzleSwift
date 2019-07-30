@@ -3,31 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		023DFEF7303CB0796B647BC859CDD707 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		0B808FEB4BCD6B8392FDC53F7F13EF88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		47C0DBBA1F4F5F0AB2D71BA939C31E04 /* SwizzleSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA37A41B6AAA3988DAB4F56FE4ED7B0 /* SwizzleSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53B115DE7064E8F9884F26DAD4DE8BE1 /* Pods-SwizzleSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A57A2190DFBDF9F2B92550016BCEEA9 /* Pods-SwizzleSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BC546D0D5C80C8E87B0E00284FB0348 /* SwizzleSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D992FB4747B6438D647BD33BCD64A976 /* SwizzleSwift-dummy.m */; };
-		8C639EC666A14DEA68686726025FD8A3 /* Pods-SwizzleSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6352020CD3FE06A82407DB3E52524C7E /* Pods-SwizzleSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9EF94939EA97E0DA42FCBC8CEFC19C47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		C09ACC8E9244DEB74B69D93BEAAE9D5E /* SwizzleSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5FD9E4F756F4678066BA3439D28D3E /* SwizzleSwift.swift */; };
-		EA125077D08A6803DB5FE8942BC41B0D /* Pods-SwizzleSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B78F7613BA8EB4F55929196B95ED84E /* Pods-SwizzleSwift_Example-dummy.m */; };
-		F27F059D03CBDE780977B11D1D8E7A9A /* Pods-SwizzleSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C13910A5520131D972A4C3A1219909 /* Pods-SwizzleSwift_Tests-dummy.m */; };
+		41EBDC868A93F0442337B7032B88326E /* Pods-SwizzleSwiftDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C36F622A49A7250190DF6F7C4F351EE /* Pods-SwizzleSwiftDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		748E182C2AFB3B9B8B6D3EAF69270360 /* SwizzleSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAF4D4D5DEA430169A628D2E3AF4652 /* SwizzleSwift-dummy.m */; };
+		7BFBDB15A11731CCBEF03CC6F18AF586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9CFCE545952FE5AEFB9DB50A6D45C306 /* Pods-SwizzleSwiftDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69083CF8E5C19134B9B664F0EA44AD10 /* Pods-SwizzleSwiftDemo-dummy.m */; };
+		9D2B1F6DA1ED8523BF4466A75069784A /* SwizzleSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A85173135B4C60FF7CFC7D731C24609 /* SwizzleSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8BDCBDBE7986BD7CA4A14166464586B /* SwizzleSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DEA0E4B797A91AEC6F9594EC3E66EF /* SwizzleSwift.swift */; };
+		F7E33A1439CD4BC1E6F82128FF6B26FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		996111FA598FCC9B2827BC94BF19E11A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D5B779EAFC6F9D5A9BDF28BB99EA0C40;
-			remoteInfo = "Pods-SwizzleSwift_Example";
-		};
-		D0EA38E05D562A12349455F4D85A5276 /* PBXContainerItemProxy */ = {
+		4F70779F4C8741F6D4ED89C264DC990D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,151 +27,112 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1665D319895253E738E84AC0F3BC9BC1 /* Pods-SwizzleSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwizzleSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1A57A2190DFBDF9F2B92550016BCEEA9 /* Pods-SwizzleSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwizzleSwift_Example-umbrella.h"; sourceTree = "<group>"; };
-		3D4EE77FA8E1B92D1EB3A1D2F96D7C52 /* Pods-SwizzleSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwizzleSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3D53C97851D61F72CDC30CB841A7C6B2 /* SwizzleSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwizzleSwift.xcconfig; sourceTree = "<group>"; };
-		443180F454F3E992D9041865327630D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4F8EF37ED98E6C6C738FD3A3ABF884BB /* Pods-SwizzleSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwizzleSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		507A69FC444B27BB5F305C27037F704E /* Pods-SwizzleSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwizzleSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		50DA12B4F6D12451A89BF219C767450E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		52960FD6CC90F7F91B1A6C964B8525FF /* SwizzleSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwizzleSwift.modulemap; sourceTree = "<group>"; };
-		6352020CD3FE06A82407DB3E52524C7E /* Pods-SwizzleSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwizzleSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6A5FD9E4F756F4678066BA3439D28D3E /* SwizzleSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwizzleSwift.swift; path = SwizzleSwift/Classes/SwizzleSwift.swift; sourceTree = "<group>"; };
-		6EA6BDEDEB388D364D640D5E89BF723C /* Pods_SwizzleSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwizzleSwift_Example.framework; path = "Pods-SwizzleSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		754B74BEA7EA0D8AB8EAEBC5A86FBC98 /* Pods-SwizzleSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwizzleSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7969E93F8F9DA64930E013A6490BDEA6 /* Pods_SwizzleSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwizzleSwift_Tests.framework; path = "Pods-SwizzleSwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CA44987EAA9A339B29BC94E08B54BCB /* Pods-SwizzleSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwizzleSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8386245C0AB4C2A3694B8987A8AA374A /* Pods-SwizzleSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwizzleSwift_Tests-Info.plist"; sourceTree = "<group>"; };
-		8AA37A41B6AAA3988DAB4F56FE4ED7B0 /* SwizzleSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwizzleSwift-umbrella.h"; sourceTree = "<group>"; };
-		8B78F7613BA8EB4F55929196B95ED84E /* Pods-SwizzleSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwizzleSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		08BCD1CC39D23784A2754FA00119C324 /* Pods_SwizzleSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwizzleSwiftDemo.framework; path = "Pods-SwizzleSwiftDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		314DE5D535C26B89E77062A63E2D5BA8 /* SwizzleSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwizzleSwift.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32162F6B40188E5A51CD54CC016E56CB /* Pods-SwizzleSwiftDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwizzleSwiftDemo.modulemap"; sourceTree = "<group>"; };
+		4117FFFD76F5C7BB9D0C194C79427A21 /* SwizzleSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwizzleSwift-Info.plist"; sourceTree = "<group>"; };
+		4A85173135B4C60FF7CFC7D731C24609 /* SwizzleSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwizzleSwift-umbrella.h"; sourceTree = "<group>"; };
+		4F4B19ED6B976156B19F66C166D80A8E /* Pods-SwizzleSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwizzleSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5504F01B3FB47015966D8739E0AAF54E /* SwizzleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwizzleSwift.framework; path = SwizzleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69083CF8E5C19134B9B664F0EA44AD10 /* Pods-SwizzleSwiftDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwizzleSwiftDemo-dummy.m"; sourceTree = "<group>"; };
+		6F3CF2E99D3561ECB237C1E4616646CE /* Pods-SwizzleSwiftDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwizzleSwiftDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		72DEA0E4B797A91AEC6F9594EC3E66EF /* SwizzleSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwizzleSwift.swift; path = SwizzleSwift/Sources/SwizzleSwift/SwizzleSwift.swift; sourceTree = "<group>"; };
+		9178A65CE9C67F12F56BB5B0C853DFFA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9C36F622A49A7250190DF6F7C4F351EE /* Pods-SwizzleSwiftDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwizzleSwiftDemo-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB5EB0B4D10AB26892B6AD5B26383934 /* SwizzleSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwizzleSwift-prefix.pch"; sourceTree = "<group>"; };
-		AF4D3223C8B1847A47E2E94E855F9A3F /* Pods-SwizzleSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwizzleSwift_Example-Info.plist"; sourceTree = "<group>"; };
-		B1F97E3D3B36F28D9269AE7985A7E7D4 /* Pods-SwizzleSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwizzleSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B76A3CC0586185FB0D36C832F82B6B90 /* Pods-SwizzleSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwizzleSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C5F173A45DF73798DF99A209144761FF /* SwizzleSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwizzleSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CA73A9D35BD7942A809A8E1F0580458D /* Pods-SwizzleSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwizzleSwift_Example.modulemap"; sourceTree = "<group>"; };
-		CB29BD20967F9DB2730BB562483B08D5 /* Pods-SwizzleSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwizzleSwift_Tests.modulemap"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D992FB4747B6438D647BD33BCD64A976 /* SwizzleSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwizzleSwift-dummy.m"; sourceTree = "<group>"; };
-		E1C13910A5520131D972A4C3A1219909 /* Pods-SwizzleSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwizzleSwift_Tests-dummy.m"; sourceTree = "<group>"; };
-		E86BCAE141A267F953AEB2CC97E54970 /* SwizzleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwizzleSwift.framework; path = SwizzleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA13934F636AA0896E7F32A0F9CAB5AA /* SwizzleSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwizzleSwift-Info.plist"; sourceTree = "<group>"; };
-		F8ADF3AAC5C464766E4706644BA3E04C /* Pods-SwizzleSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwizzleSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B26FBA01219A788C465F7E4D6E700BB2 /* SwizzleSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwizzleSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CCAF4D4D5DEA430169A628D2E3AF4652 /* SwizzleSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwizzleSwift-dummy.m"; sourceTree = "<group>"; };
+		D734D1CE12E93B0F1B897D9AC17410CB /* SwizzleSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwizzleSwift.modulemap; sourceTree = "<group>"; };
+		EAD9EF19FCF7071F4FA4C880C1E99E86 /* Pods-SwizzleSwiftDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwizzleSwiftDemo-Info.plist"; sourceTree = "<group>"; };
+		EDB790DD29EC9C5CE358B67EC6750C3C /* Pods-SwizzleSwiftDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwizzleSwiftDemo-frameworks.sh"; sourceTree = "<group>"; };
+		FA0E464B73CA1C023B811C29908229DF /* Pods-SwizzleSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwizzleSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FE0ECE6C88E65D15B239704A0FCE9CBA /* SwizzleSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwizzleSwift-prefix.pch"; sourceTree = "<group>"; };
+		FF0527EC1845C13467BF9B607E0B5E5A /* Pods-SwizzleSwiftDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwizzleSwiftDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		123E6BA8D1F0B7423C20EFB6FABDC6D4 /* Frameworks */ = {
+		85646DBF3237D508F20C3532C215B3CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				023DFEF7303CB0796B647BC859CDD707 /* Foundation.framework in Frameworks */,
+				7BFBDB15A11731CCBEF03CC6F18AF586 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		274C133B23B9CA04E6043FDA7279298F /* Frameworks */ = {
+		A49731B02B26C52AD10BCCACF6BA0D9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B808FEB4BCD6B8392FDC53F7F13EF88 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF7949C308D01B664782B1E212EA8A33 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9EF94939EA97E0DA42FCBC8CEFC19C47 /* Foundation.framework in Frameworks */,
+				F7E33A1439CD4BC1E6F82128FF6B26FE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		055F6F96585B7740AB70AB23D5FFEBE6 /* SwizzleSwift */ = {
+		1E7E87672CF3B6119D5FBAF43CB3EB75 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6A5FD9E4F756F4678066BA3439D28D3E /* SwizzleSwift.swift */,
-				7A92B51D81EB75488E68DAFABD4E352D /* Pod */,
-				941D1CF0AD1251DD76EAED595C035F12 /* Support Files */,
+				B1A2CB65C0E908BF2724F049111254FF /* Pods-SwizzleSwiftDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		33CDDF4E55B4A2D2CC8D1F4F81161F71 /* SwizzleSwift */ = {
+			isa = PBXGroup;
+			children = (
+				72DEA0E4B797A91AEC6F9594EC3E66EF /* SwizzleSwift.swift */,
+				FA6277447D106F11A6E1AFA2E92550BE /* Pod */,
+				485F6EDC5EDC970CB35125694E94B464 /* Support Files */,
 			);
 			name = SwizzleSwift;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		59D82E8C414CC312421B5358ECEC663D /* Development Pods */ = {
+		485F6EDC5EDC970CB35125694E94B464 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				055F6F96585B7740AB70AB23D5FFEBE6 /* SwizzleSwift */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		5B7E87E457127D999F28CDAF62011633 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8346737A563B26AEF0FFC1AF103489A6 /* Pods-SwizzleSwift_Example */,
-				FFF3452D1697623DDAC06169905DD62F /* Pods-SwizzleSwift_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		636E1130096B1AEFFB3358665F2E4E45 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6EA6BDEDEB388D364D640D5E89BF723C /* Pods_SwizzleSwift_Example.framework */,
-				7969E93F8F9DA64930E013A6490BDEA6 /* Pods_SwizzleSwift_Tests.framework */,
-				E86BCAE141A267F953AEB2CC97E54970 /* SwizzleSwift.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7A92B51D81EB75488E68DAFABD4E352D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				443180F454F3E992D9041865327630D0 /* LICENSE */,
-				50DA12B4F6D12451A89BF219C767450E /* README.md */,
-				C5F173A45DF73798DF99A209144761FF /* SwizzleSwift.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		8346737A563B26AEF0FFC1AF103489A6 /* Pods-SwizzleSwift_Example */ = {
-			isa = PBXGroup;
-			children = (
-				CA73A9D35BD7942A809A8E1F0580458D /* Pods-SwizzleSwift_Example.modulemap */,
-				7CA44987EAA9A339B29BC94E08B54BCB /* Pods-SwizzleSwift_Example-acknowledgements.markdown */,
-				3D4EE77FA8E1B92D1EB3A1D2F96D7C52 /* Pods-SwizzleSwift_Example-acknowledgements.plist */,
-				8B78F7613BA8EB4F55929196B95ED84E /* Pods-SwizzleSwift_Example-dummy.m */,
-				1665D319895253E738E84AC0F3BC9BC1 /* Pods-SwizzleSwift_Example-frameworks.sh */,
-				AF4D3223C8B1847A47E2E94E855F9A3F /* Pods-SwizzleSwift_Example-Info.plist */,
-				1A57A2190DFBDF9F2B92550016BCEEA9 /* Pods-SwizzleSwift_Example-umbrella.h */,
-				4F8EF37ED98E6C6C738FD3A3ABF884BB /* Pods-SwizzleSwift_Example.debug.xcconfig */,
-				B1F97E3D3B36F28D9269AE7985A7E7D4 /* Pods-SwizzleSwift_Example.release.xcconfig */,
-			);
-			name = "Pods-SwizzleSwift_Example";
-			path = "Target Support Files/Pods-SwizzleSwift_Example";
-			sourceTree = "<group>";
-		};
-		941D1CF0AD1251DD76EAED595C035F12 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				52960FD6CC90F7F91B1A6C964B8525FF /* SwizzleSwift.modulemap */,
-				3D53C97851D61F72CDC30CB841A7C6B2 /* SwizzleSwift.xcconfig */,
-				D992FB4747B6438D647BD33BCD64A976 /* SwizzleSwift-dummy.m */,
-				EA13934F636AA0896E7F32A0F9CAB5AA /* SwizzleSwift-Info.plist */,
-				AB5EB0B4D10AB26892B6AD5B26383934 /* SwizzleSwift-prefix.pch */,
-				8AA37A41B6AAA3988DAB4F56FE4ED7B0 /* SwizzleSwift-umbrella.h */,
+				D734D1CE12E93B0F1B897D9AC17410CB /* SwizzleSwift.modulemap */,
+				314DE5D535C26B89E77062A63E2D5BA8 /* SwizzleSwift.xcconfig */,
+				CCAF4D4D5DEA430169A628D2E3AF4652 /* SwizzleSwift-dummy.m */,
+				4117FFFD76F5C7BB9D0C194C79427A21 /* SwizzleSwift-Info.plist */,
+				FE0ECE6C88E65D15B239704A0FCE9CBA /* SwizzleSwift-prefix.pch */,
+				4A85173135B4C60FF7CFC7D731C24609 /* SwizzleSwift-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SwizzleSwift";
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		59D82E8C414CC312421B5358ECEC663D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				33CDDF4E55B4A2D2CC8D1F4F81161F71 /* SwizzleSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B1A2CB65C0E908BF2724F049111254FF /* Pods-SwizzleSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				32162F6B40188E5A51CD54CC016E56CB /* Pods-SwizzleSwiftDemo.modulemap */,
+				FF0527EC1845C13467BF9B607E0B5E5A /* Pods-SwizzleSwiftDemo-acknowledgements.markdown */,
+				6F3CF2E99D3561ECB237C1E4616646CE /* Pods-SwizzleSwiftDemo-acknowledgements.plist */,
+				69083CF8E5C19134B9B664F0EA44AD10 /* Pods-SwizzleSwiftDemo-dummy.m */,
+				EDB790DD29EC9C5CE358B67EC6750C3C /* Pods-SwizzleSwiftDemo-frameworks.sh */,
+				EAD9EF19FCF7071F4FA4C880C1E99E86 /* Pods-SwizzleSwiftDemo-Info.plist */,
+				9C36F622A49A7250190DF6F7C4F351EE /* Pods-SwizzleSwiftDemo-umbrella.h */,
+				FA0E464B73CA1C023B811C29908229DF /* Pods-SwizzleSwiftDemo.debug.xcconfig */,
+				4F4B19ED6B976156B19F66C166D80A8E /* Pods-SwizzleSwiftDemo.release.xcconfig */,
+			);
+			name = "Pods-SwizzleSwiftDemo";
+			path = "Target Support Files/Pods-SwizzleSwiftDemo";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -192,111 +143,86 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				59D82E8C414CC312421B5358ECEC663D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				636E1130096B1AEFFB3358665F2E4E45 /* Products */,
-				5B7E87E457127D999F28CDAF62011633 /* Targets Support Files */,
+				FAAC26D776A16DDCD78BC110DB8148E9 /* Products */,
+				1E7E87672CF3B6119D5FBAF43CB3EB75 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FFF3452D1697623DDAC06169905DD62F /* Pods-SwizzleSwift_Tests */ = {
+		FA6277447D106F11A6E1AFA2E92550BE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CB29BD20967F9DB2730BB562483B08D5 /* Pods-SwizzleSwift_Tests.modulemap */,
-				754B74BEA7EA0D8AB8EAEBC5A86FBC98 /* Pods-SwizzleSwift_Tests-acknowledgements.markdown */,
-				F8ADF3AAC5C464766E4706644BA3E04C /* Pods-SwizzleSwift_Tests-acknowledgements.plist */,
-				E1C13910A5520131D972A4C3A1219909 /* Pods-SwizzleSwift_Tests-dummy.m */,
-				8386245C0AB4C2A3694B8987A8AA374A /* Pods-SwizzleSwift_Tests-Info.plist */,
-				6352020CD3FE06A82407DB3E52524C7E /* Pods-SwizzleSwift_Tests-umbrella.h */,
-				507A69FC444B27BB5F305C27037F704E /* Pods-SwizzleSwift_Tests.debug.xcconfig */,
-				B76A3CC0586185FB0D36C832F82B6B90 /* Pods-SwizzleSwift_Tests.release.xcconfig */,
+				9178A65CE9C67F12F56BB5B0C853DFFA /* LICENSE */,
+				B26FBA01219A788C465F7E4D6E700BB2 /* SwizzleSwift.podspec */,
 			);
-			name = "Pods-SwizzleSwift_Tests";
-			path = "Target Support Files/Pods-SwizzleSwift_Tests";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FAAC26D776A16DDCD78BC110DB8148E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08BCD1CC39D23784A2754FA00119C324 /* Pods_SwizzleSwiftDemo.framework */,
+				5504F01B3FB47015966D8739E0AAF54E /* SwizzleSwift.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		23AB763E1E1869CA2D10259B525E34B0 /* Headers */ = {
+		2D32BDA04C1136ADA707D797BF1D2015 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53B115DE7064E8F9884F26DAD4DE8BE1 /* Pods-SwizzleSwift_Example-umbrella.h in Headers */,
+				41EBDC868A93F0442337B7032B88326E /* Pods-SwizzleSwiftDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AF7BF2947D766408DE38C47F6C36BB9 /* Headers */ = {
+		5CF0A9980DE6FA404BE96DDD0D80D8AB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47C0DBBA1F4F5F0AB2D71BA939C31E04 /* SwizzleSwift-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		56DC8578BADD4420908FC31AEB04594E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8C639EC666A14DEA68686726025FD8A3 /* Pods-SwizzleSwift_Tests-umbrella.h in Headers */,
+				9D2B1F6DA1ED8523BF4466A75069784A /* SwizzleSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D3AB9F9B0F5A5D203BF236BFE9389A63 /* Pods-SwizzleSwift_Tests */ = {
+		188FF53D1D9F16D6871EC270DA03D480 /* Pods-SwizzleSwiftDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A5926F488F3BC1EEA1392DCFFA528DC /* Build configuration list for PBXNativeTarget "Pods-SwizzleSwift_Tests" */;
+			buildConfigurationList = 578D21C2C1C208A14893E630FC3BC254 /* Build configuration list for PBXNativeTarget "Pods-SwizzleSwiftDemo" */;
 			buildPhases = (
-				56DC8578BADD4420908FC31AEB04594E /* Headers */,
-				D2E96B6D9ECE636DDAF2537B7F21B676 /* Sources */,
-				123E6BA8D1F0B7423C20EFB6FABDC6D4 /* Frameworks */,
-				F0DBC131C59411E6CA182F54AC4B27DB /* Resources */,
+				2D32BDA04C1136ADA707D797BF1D2015 /* Headers */,
+				7DF7126840D8CCDE560146D8A321671E /* Sources */,
+				85646DBF3237D508F20C3532C215B3CC /* Frameworks */,
+				6418680E024C06501B3B6456B611D182 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				964AFBB71B9BA412F1DF8240648ED766 /* PBXTargetDependency */,
+				D3C1F9CBACF0F62AA54946D18116E960 /* PBXTargetDependency */,
 			);
-			name = "Pods-SwizzleSwift_Tests";
-			productName = "Pods-SwizzleSwift_Tests";
-			productReference = 7969E93F8F9DA64930E013A6490BDEA6 /* Pods_SwizzleSwift_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D5B779EAFC6F9D5A9BDF28BB99EA0C40 /* Pods-SwizzleSwift_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CD5727323AEF58E82555D6840F909134 /* Build configuration list for PBXNativeTarget "Pods-SwizzleSwift_Example" */;
-			buildPhases = (
-				23AB763E1E1869CA2D10259B525E34B0 /* Headers */,
-				50BC885C1488116F5874B57467085B7E /* Sources */,
-				274C133B23B9CA04E6043FDA7279298F /* Frameworks */,
-				B90700A91857FA15702921D4F21F2766 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				13C7FF0A973902FD1AD802541C5BD452 /* PBXTargetDependency */,
-			);
-			name = "Pods-SwizzleSwift_Example";
-			productName = "Pods-SwizzleSwift_Example";
-			productReference = 6EA6BDEDEB388D364D640D5E89BF723C /* Pods_SwizzleSwift_Example.framework */;
+			name = "Pods-SwizzleSwiftDemo";
+			productName = "Pods-SwizzleSwiftDemo";
+			productReference = 08BCD1CC39D23784A2754FA00119C324 /* Pods_SwizzleSwiftDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DBE41041CDB1F9F8AB2FD688D8F6F308 /* SwizzleSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 305D88C2B00264BA1E92578360A55643 /* Build configuration list for PBXNativeTarget "SwizzleSwift" */;
+			buildConfigurationList = 3CCA010A2109C77F35A9AC0C53D65F5C /* Build configuration list for PBXNativeTarget "SwizzleSwift" */;
 			buildPhases = (
-				2AF7BF2947D766408DE38C47F6C36BB9 /* Headers */,
-				FC3A2FAD11A2D90A91D5D555785003E3 /* Sources */,
-				BF7949C308D01B664782B1E212EA8A33 /* Frameworks */,
-				57E37BFD77423D4D78BFAAFC989CFA64 /* Resources */,
+				5CF0A9980DE6FA404BE96DDD0D80D8AB /* Headers */,
+				8CACBBFD9B2DBC46223AFB56C39BC0EB /* Sources */,
+				A49731B02B26C52AD10BCCACF6BA0D9B /* Frameworks */,
+				49F6508B6064DD7D7F1956DCDB9581CF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -304,7 +230,7 @@
 			);
 			name = SwizzleSwift;
 			productName = SwizzleSwift;
-			productReference = E86BCAE141A267F953AEB2CC97E54970 /* SwizzleSwift.framework */;
+			productReference = 5504F01B3FB47015966D8739E0AAF54E /* SwizzleSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -313,44 +239,36 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 636E1130096B1AEFFB3358665F2E4E45 /* Products */;
+			productRefGroup = FAAC26D776A16DDCD78BC110DB8148E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5B779EAFC6F9D5A9BDF28BB99EA0C40 /* Pods-SwizzleSwift_Example */,
-				D3AB9F9B0F5A5D203BF236BFE9389A63 /* Pods-SwizzleSwift_Tests */,
+				188FF53D1D9F16D6871EC270DA03D480 /* Pods-SwizzleSwiftDemo */,
 				DBE41041CDB1F9F8AB2FD688D8F6F308 /* SwizzleSwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		57E37BFD77423D4D78BFAAFC989CFA64 /* Resources */ = {
+		49F6508B6064DD7D7F1956DCDB9581CF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B90700A91857FA15702921D4F21F2766 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0DBC131C59411E6CA182F54AC4B27DB /* Resources */ = {
+		6418680E024C06501B3B6456B611D182 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,86 +278,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		50BC885C1488116F5874B57467085B7E /* Sources */ = {
+		7DF7126840D8CCDE560146D8A321671E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA125077D08A6803DB5FE8942BC41B0D /* Pods-SwizzleSwift_Example-dummy.m in Sources */,
+				9CFCE545952FE5AEFB9DB50A6D45C306 /* Pods-SwizzleSwiftDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2E96B6D9ECE636DDAF2537B7F21B676 /* Sources */ = {
+		8CACBBFD9B2DBC46223AFB56C39BC0EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F27F059D03CBDE780977B11D1D8E7A9A /* Pods-SwizzleSwift_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC3A2FAD11A2D90A91D5D555785003E3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6BC546D0D5C80C8E87B0E00284FB0348 /* SwizzleSwift-dummy.m in Sources */,
-				C09ACC8E9244DEB74B69D93BEAAE9D5E /* SwizzleSwift.swift in Sources */,
+				748E182C2AFB3B9B8B6D3EAF69270360 /* SwizzleSwift-dummy.m in Sources */,
+				D8BDCBDBE7986BD7CA4A14166464586B /* SwizzleSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		13C7FF0A973902FD1AD802541C5BD452 /* PBXTargetDependency */ = {
+		D3C1F9CBACF0F62AA54946D18116E960 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwizzleSwift;
 			target = DBE41041CDB1F9F8AB2FD688D8F6F308 /* SwizzleSwift */;
-			targetProxy = D0EA38E05D562A12349455F4D85A5276 /* PBXContainerItemProxy */;
-		};
-		964AFBB71B9BA412F1DF8240648ED766 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-SwizzleSwift_Example";
-			target = D5B779EAFC6F9D5A9BDF28BB99EA0C40 /* Pods-SwizzleSwift_Example */;
-			targetProxy = 996111FA598FCC9B2827BC94BF19E11A /* PBXContainerItemProxy */;
+			targetProxy = 4F70779F4C8741F6D4ED89C264DC990D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		078F1784FC8E8EAC7E48C1AF1B6E57BE /* Release */ = {
+		188A29AE75226D7068FB09AE450A815B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B76A3CC0586185FB0D36C832F82B6B90 /* Pods-SwizzleSwift_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwizzleSwift_Tests/Pods-SwizzleSwift_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwizzleSwift_Tests/Pods-SwizzleSwift_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		25F1DE89B7767C63D5F9B2B8A85EE8A6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D53C97851D61F72CDC30CB841A7C6B2 /* SwizzleSwift.xcconfig */;
+			baseConfigurationReference = 314DE5D535C26B89E77062A63E2D5BA8 /* SwizzleSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -454,105 +324,11 @@
 				INFOPLIST_FILE = "Target Support Files/SwizzleSwift/SwizzleSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwizzleSwift/SwizzleSwift.modulemap";
-				PRODUCT_MODULE_NAME = SwizzleSwift;
-				PRODUCT_NAME = SwizzleSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4D3A951FEB33BC2A2EAA27D11882D5E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1F97E3D3B36F28D9269AE7985A7E7D4 /* Pods-SwizzleSwift_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwizzleSwift_Example/Pods-SwizzleSwift_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwizzleSwift_Example/Pods-SwizzleSwift_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		58053057B0882330ADC4EE35B2661377 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 507A69FC444B27BB5F305C27037F704E /* Pods-SwizzleSwift_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwizzleSwift_Tests/Pods-SwizzleSwift_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwizzleSwift_Tests/Pods-SwizzleSwift_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8242C9DE7A0619906A8F616A9EC39631 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D53C97851D61F72CDC30CB841A7C6B2 /* SwizzleSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwizzleSwift/SwizzleSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwizzleSwift/SwizzleSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/SwizzleSwift/SwizzleSwift.modulemap";
 				PRODUCT_MODULE_NAME = SwizzleSwift;
 				PRODUCT_NAME = SwizzleSwift;
@@ -567,9 +343,9 @@
 			};
 			name = Release;
 		};
-		A15BE14D4576B3176D59A6E30334E7CB /* Debug */ = {
+		1CA473E4366F642407094B92A6DDA7C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F8EF37ED98E6C6C738FD3A3ABF884BB /* Pods-SwizzleSwift_Example.debug.xcconfig */;
+			baseConfigurationReference = FA0E464B73CA1C023B811C29908229DF /* Pods-SwizzleSwiftDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -581,12 +357,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwizzleSwift_Example/Pods-SwizzleSwift_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwizzleSwiftDemo/Pods-SwizzleSwiftDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwizzleSwift_Example/Pods-SwizzleSwift_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SwizzleSwiftDemo/Pods-SwizzleSwiftDemo.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -600,7 +380,105 @@
 			};
 			name = Debug;
 		};
-		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+		8A492223C3EB7EAA501E743678B0E532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4B19ED6B976156B19F66C166D80A8E /* Pods-SwizzleSwiftDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwizzleSwiftDemo/Pods-SwizzleSwiftDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwizzleSwiftDemo/Pods-SwizzleSwiftDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -659,79 +537,54 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+		D65DC2FEC256A97CFDA2510AAF8FE68E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 314DE5D535C26B89E77062A63E2D5BA8 /* SwizzleSwift.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwizzleSwift/SwizzleSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwizzleSwift/SwizzleSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
+				MODULEMAP_FILE = "Target Support Files/SwizzleSwift/SwizzleSwift.modulemap";
+				PRODUCT_MODULE_NAME = SwizzleSwift;
+				PRODUCT_NAME = SwizzleSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		305D88C2B00264BA1E92578360A55643 /* Build configuration list for PBXNativeTarget "SwizzleSwift" */ = {
+		3CCA010A2109C77F35A9AC0C53D65F5C /* Build configuration list for PBXNativeTarget "SwizzleSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25F1DE89B7767C63D5F9B2B8A85EE8A6 /* Debug */,
-				8242C9DE7A0619906A8F616A9EC39631 /* Release */,
+				D65DC2FEC256A97CFDA2510AAF8FE68E /* Debug */,
+				188A29AE75226D7068FB09AE450A815B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -739,26 +592,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
-				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A5926F488F3BC1EEA1392DCFFA528DC /* Build configuration list for PBXNativeTarget "Pods-SwizzleSwift_Tests" */ = {
+		578D21C2C1C208A14893E630FC3BC254 /* Build configuration list for PBXNativeTarget "Pods-SwizzleSwiftDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58053057B0882330ADC4EE35B2661377 /* Debug */,
-				078F1784FC8E8EAC7E48C1AF1B6E57BE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CD5727323AEF58E82555D6840F909134 /* Build configuration list for PBXNativeTarget "Pods-SwizzleSwift_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A15BE14D4576B3176D59A6E30334E7CB /* Debug */,
-				4D3A951FEB33BC2A2EAA27D11882D5E7 /* Release */,
+				1CA473E4366F642407094B92A6DDA7C0 /* Debug */,
+				8A492223C3EB7EAA501E743678B0E532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
