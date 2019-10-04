@@ -1,6 +1,0 @@
-use_frameworks!
-
-target 'SwizzleSwiftDemo' do
-  pod 'SwizzleSwift', :path => '../'
-
-end

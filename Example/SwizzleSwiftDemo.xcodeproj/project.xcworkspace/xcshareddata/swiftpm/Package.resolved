@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwizzleSwift",
+        "repositoryURL": "https://github.com/MarioIannotta/SwizzleSwift.git",
+        "state": {
+          "branch": "master",
+          "revision": "de63877b7f3720e7b96d9a9a9335bb8404bfe09f",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
