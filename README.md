@@ -18,7 +18,7 @@ Who said that method swizzling needs to look ugly? SwizzleSwift is a little wrap
 
 ```swift
 Swizzle(<#AType.Self#>) {
-	<#OriginalSelector#> ==> <#SwizzledSelector#>
+	<#OriginalSelector#> <-> <#SwizzledSelector#>
 }
 
 ```
@@ -60,8 +60,8 @@ extension UIViewController {
 
     @objc static func methodSwizzling() -> Void {
         Swizzle(ViewController.self) {
-            #selector(viewDidLoad) ==> #selector(myViewDidLoad)
-            #selector(viewWillAppear(_:)) ==> #selector(myViewWillAppear(_:))
+            #selector(viewDidLoad) <-> #selector(myViewDidLoad)
+            #selector(viewWillAppear(_:)) <-> #selector(myViewWillAppear(_:))
         }
     }
     
