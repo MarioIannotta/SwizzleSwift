@@ -27,8 +27,8 @@ extension UIViewController {
     
     @objc static func swizzle() -> Void {
         Swizzle(ViewController.self) {
-            #selector(viewDidLoad) ==> #selector(myViewDidLoad)
-            #selector(viewWillAppear(_:)) ==> #selector(myViewWillAppear(_:))
+            #selector(viewDidLoad) <-> #selector(myViewDidLoad)
+            #selector(viewWillAppear(_:)) <-> #selector(myViewWillAppear(_:))
         }
     }
     
