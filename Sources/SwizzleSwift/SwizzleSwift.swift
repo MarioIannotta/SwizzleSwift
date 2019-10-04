@@ -8,7 +8,7 @@
 
 import Foundation
 
-infix operator ==>
+infix operator <->
 
 public struct SwizzlePair {
     let original: Selector
@@ -17,7 +17,7 @@ public struct SwizzlePair {
 
 extension Selector {
     
-    public static func ==>(original: Selector, swizzled: Selector) -> SwizzlePair {
+    public static func <->(original: Selector, swizzled: Selector) -> SwizzlePair {
         SwizzlePair(original: original, swizzled: swizzled)
     }
     
